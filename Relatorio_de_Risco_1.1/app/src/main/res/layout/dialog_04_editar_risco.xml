@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#ff8400">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:background="@drawable/ic_editar_34dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/txt_dialog_titulo_editar_Risco"
+            android:id="@+id/textView28"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Medium Text"
+            android:id="@+id/txt_editar_nome_risco"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_editar_tipo_agentes_causadores_risco"
+        android:padding="10dp"
+        android:lines="4"
+        android:minLines="3"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:gravity="bottom|left"
+        android:scrollbars="vertical"
+        android:hint="Agentes Causadores do Risco"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txt_grau_do_risco"
+        android:id="@+id/textView13"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edt_editar_grau_risco"
+            android:hint="Grau do Risco"
+            android:enabled="false"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ededed">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/btn_escolher_editar_grau_risco"
+                android:background="@drawable/ic_arrow_drop_down_24dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_editar_recomendacoes_risco"
+        android:padding="10dp"
+        android:lines="4"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:minLines="3"
+        android:gravity="bottom|left"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="5dp"
+        android:hint="EPI/EPC/Recomendações"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/edt_editar_data_risco"
+            android:layout_marginBottom="5dp"
+            android:hint="00/00/0000" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ededed">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/btn_escolher_editar_data"
+                android:background="@drawable/ic_arrow_drop_down_24dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+        <TableRow>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_cancelar"
+                android:id="@+id/btn_cancelar_risco" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_editar"
+                android:id="@+id/btn_editar_risco" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#FF14CFF1"></LinearLayout>
+
+</LinearLayout>

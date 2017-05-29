@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#ff8400">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:background="@drawable/ic_editar_34dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/txt_dialog_titulo_editar_inspecao"
+            android:id="@+id/textView28"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/txt_nome_do_tecnico"
+                    android:id="@+id/textView3"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="299dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/edt_escolher_editar_tecnico_inspecao"
+                        android:hint="Selecionar Tecnico..."
+                        android:enabled="false"
+                        android:layout_weight="1.04"
+                        android:textSize="6pt" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:background="#ededed">
+
+                        <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:id="@+id/btn_escolher_editar_tecnico_inspecao"
+                            android:background="@drawable/ic_arrow_drop_down_24dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/txt_nome_do_setor"
+                    android:id="@+id/textView9"
+                    android:layout_marginTop="10dp" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="299dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/edt_escolher_editar_setor_inspecao"
+                        android:hint="Selecionar setor..."
+                        android:enabled="false"
+                        android:layout_weight="1.04"
+                        android:textSize="6pt" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:background="#ededed">
+
+                        <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:id="@+id/btn_escolher_editar_setor_inspecao"
+                            android:background="@drawable/ic_arrow_drop_down_24dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/txt_data"
+                        android:id="@+id/textView12" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:layout_width="145dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="date"
+                            android:ems="10"
+                            android:id="@+id/edt_editar_data_inicio_inspecao"
+                            android:hint="00/00/0000"
+                            android:textSize="6pt" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#ededed">
+                            <Button
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/btn_escolher_editar_data_inicio_inspecao"
+                                android:background="@drawable/ic_arrow_drop_down_24dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/txt_data_fim"
+                        android:id="@+id/textView11"
+                        android:layout_marginTop="5dp" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:layout_width="145dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="date"
+                            android:ems="10"
+                            android:id="@+id/edt_editar_data_fim_inspecao"
+                            android:hint="00/00/0000"
+                            android:textSize="6pt" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#ededed">
+                            <Button
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/btn_escolher_editar_data_fim_inspecao"
+                                android:background="@drawable/ic_arrow_drop_down_24dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1"
+                    android:layout_marginTop="10dp">
+                    <TableRow>
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/btn_cancelar"
+                            android:id="@+id/btn_cancelar_editar_inpecao" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/btn_editar"
+                            android:id="@+id/btn_editar_inspecao" />
+                    </TableRow>
+                </TableLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FF14CFF1">
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

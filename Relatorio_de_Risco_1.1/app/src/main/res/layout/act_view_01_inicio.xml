@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/icon_relatorio_de_risco_app"
+        android:layout_marginTop="154dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/text_logo_relatorio_de_risco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/btn_nova_inspecao"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/ic_btn_bg_inicio_novo"
+        android:elevation="5dp"
+        android:stateListAnimator="@null"
+        android:text="+"
+        android:textColor="#fff"
+        android:textSize="40sp" />
+
+
+</RelativeLayout>

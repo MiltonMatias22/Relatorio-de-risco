@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:Context=".View_01_Inicio">
+
+<item android:id="@+id/menu_item_01_nova_inpecoes"
+    android:title="@string/menu_item_01_nova_inpecoes"
+    android:orderInCategory="1"
+    android:icon="@drawable/ic_menu_24dp"/>
+<item android:id="@+id/menu_item_02_consultar"
+    android:title="@string/menu_item_02_consultar_inspecoes"
+    android:orderInCategory="2"/>
+<item android:id="@+id/menu_item_03_consultar_tecnico"
+    android:title="@string/menu_item_03_consultar_tecnico"
+    android:orderInCategory="3"/>
+</menu>

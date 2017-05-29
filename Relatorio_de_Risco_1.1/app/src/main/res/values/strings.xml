@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Relatorio de Risco 1.1</string>
+    <!-- MENU, ITENS GLOBAIS -->
+    <string name="menu_item_01_inicio">Início</string>
+    <string name="menu_item_02_cancelar">Cancelar</string>
+
+    <string name="txt_nome_do_local">Local:</string>
+    <string name="txt_titulo_inspecionar_locais">Inspecionar Locais</string>
+    <string name="txt_nome_do_setor">Setor/Área:</string>
+    <string name="txt_nome_do_tecnico">Técnico:</string>
+    <string name="txt_nome_do_risco">Risco:</string>
+    <string name="txt_nome_do_risco_fisico">Físico</string>
+    <string name="txt_data">Data:</string>
+    <string name="txt_data_fim">Fim:</string>
+    <string name="txt_proximo">Próximo</string>
+    <string name="txt_codigo">Código:</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_novo">Novo</string>
+    <string name="btn_exportar_PDF">Exportar PDF</string>
+    <string name="btn_salvar_e_proseguir">Salvar e Proseguir</string>
+    <!-- STRINGs ACTIVITY_01_INICIO -->
+    <!-- menu -->
+    <string name="menu_item_01_nova_inpecoes">Nova Inspeção</string>
+    <string name="menu_item_02_consultar_inspecoes">Consultar Inspeções</string>
+    <string name="menu_item_03_consultar_tecnico">Técnicos</string>
+    <!-- layout -->
+    <string name="txt_seja_bem_vindo">Seja Bem Vindo!</string>
+    <string name="txt_logo_app">Relatório de Risco</string>
+    <string name="txt_lupa_consultar">Consultar</string>
+    <string name="txt_novo">Novo</string>
+    <string name="txt_dialog_titulo_Editar_local">Editar Local.</string>
+    <string name="txt_dialog_titulo_inserir_setor">Novo Setor.</string>
+    <string name="txt_dialog_titulo_editar_setor">Editar Setor.</string>
+    <string name="txt_dialog_titulo_editar_inspecao">Editar Inspeção.</string>
+    <string name="txt_dialog_titulo_inserir_tecnico">Novo Técnico.</string>
+    <string name="txt_dialog_titulo_editar_tecnico">Editar Técnico.</string>
+    <string name="txt_dialog_titulo_editar_Risco">Editar</string>
+    <!-- STRINGs ACTIVITY_02_REGISTRAR_TÉCNICO E INSPEÇÃO -->
+    <!-- menu -->
+    <!-- layout -->
+    <string name="txt_titulo_registrar_tecnico_inspecao">Registrar Inspeção</string>
+    <!-- STRINGs ACTIVITY_03_REGISTRAR_LOCAL -->
+    <!-- menu -->
+    <string name="menu_registar_local_item_01">Início</string>
+    <string name="menu_registar_local_item_02">Cancelar</string>
+    <!-- layout -->
+    <string name="txt_titulo_regisrtar_local">Regisrtar Local</string>
+    <string name="txt_titulo_regisrtar_setor">Regisrtar Setor</string>
+    <string name="txt_titulo_regisrtar_riscos">Regisrtar Riscos</string>
+    <string name="txt_titulo_regisrtar_inspecao">Regisrtar Inspeção</string>
+    <string name="txt_quantidade_de_pessoas">Nº Pessoas:</string>
+    <string name="txt_tipo_de_pessoas">Tipo de Pessoas:</string>
+    <!-- STRINGs RISCOS-->
+    <string name="txt_titulo_risco_fisico">Risco Físico</string>
+    <string name="txt_titulo_risco_quimico">Risco Químico</string>
+    <string name="txt_titulo_risco_biologico">Risco Biológico</string>
+    <string name="txt_titulo_risco_ergonomico">Risco Ergonômico</string>
+    <string name="txt_titulo_risco_mecanico">Risco Mecânico</string>
+    <string name="txt_titulo_lista_de_tecnicos">Lista de Técnicos</string>
+    <string name="txt_titulo_lista_de_locais">Lista de Locais</string>
+    <string name="txt_titulo_lista_de_setores">Lista de Setores</string>
+    <string name="txt_titulo_lista_de_Inpecoes">Lista de Inspeções</string>
+    <string name="txt_titulo_lista_de_risco">Lista de Riscos</string>
+    <string name="txt_titulo_minhas_inspecoes">Minhas Inspeções</string>
+    <string name="txt_grau_do_risco">Grau:</string>
+    <string name="txt_agentes_causadores">Agentes Causadores:</string>
+    <string name="txt_recomendacoes">EPI/EPC/Recomendações:</string>
+    <string name="txt_selecionar_grau_risco">Selecionar Grau do Risco.</string>
+    <string name="txt_selecionar_tecnico">Selecionar técnico.</string>
+    <string name="txt_selecionar_setor">Selecionar Setor.</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_editar">Editar</string>
+    <!-- STRINGs ACTIVITY_10_RELATORIO -->
+    <!-- menu -->
+    <string name="menu_item_09_relatorio_exportar_PDF">Exportar PDF</string>
+    <!-- layout -->
+    <!-- STRINGs ACTIVITY_09_TECNICO -->
+    <!-- menu -->
+    <string name="menu_item_01_novo_tecnico">Novo</string>
+    <!-- layout -->
+    <!-- STRINGs ACTIVITY_08_LISTA_DE_RISCOS-->
+    <!-- menu -->
+    <string name="menu_item_continuar_risco">Adicionar Risco</string>
+    <!-- layout -->
+
+    <!-- ARRAY GRAU DO RISCO-->
+    <string-array name="array_grau_do_risco">
+        <item>PEQUENO</item>
+        <item>MÉDIO</item>
+        <item>GRANDE</item>
+    </string-array>
+    <string-array name="opcoes_alert_dialog_inspecaoes">
+        <item>Editar</item>
+        <item>Remover</item>
+        <item>Visualizar Relatório</item>
+    </string-array>
+    <string-array name="opcoes_alert_global">
+        <item>Editar</item>
+        <item>Remover</item>
+    </string-array>
+    <string-array name="opcoes_alert_detalhes_setor">
+        <item>Nova inspeção</item>
+        <item>Detalhes</item>
+        <item>Editar</item>
+        <item>Remover</item>
+    </string-array>
+    <string-array name="opcoes_alert_continue_local">
+        <item>Adicionar Novo setor.</item>
+    </string-array>
+    <string-array name="opcoes_alert_continue_setor">
+        <item>Adicionar Nova Inspeção.</item>
+    </string-array>
+    <string-array name="opcoes_alert_continue_inspecao">
+        <item>Adicionar Novo Risco.</item>
+    </string-array>
+    <string-array name="opcoes_alert_continue_risco">
+        <item>Continuar Adicionando Riscos.</item>
+    </string-array>
+    <string-array name="opcoes_alert_dialog_tecnico">
+        <item>Editar</item>
+        <item>Remover</item>
+    </string-array>
+    <string name="spinner_prompt_setor">Selecionar Setor/Área.</string>
+    <string name="txt_titulo_detalhes_setor">Detalhes do Setor</string>
+    <string name="btn_detalhes_fechar_setor">Fechar</string>
+    <string name="txt_titulo_aviso_local">Local Sem registros de Setores!</string>
+    <string name="txt_titulo_aviso_setor">Setor Sem Registros de Inspeções!</string>
+    <string name="txt_titulo_aviso_inspecao">Inspeção Sem Registro de Riscos!</string>
+    <string name="txt_titulo_aviso_risco">Inspeção Incompleta!</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hu.pe.nodout.relatorio_de_risco_11">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+
+    android:name=".DataBase.App"
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name=".View.View_01_Inicio">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".View.View_02_registrar_local"
+        android:label="@string/txt_titulo_inspecionar_locais"/>
+
+    <activity android:name=".View.View_03_registrar_inspecao"
+        android:label="@string/txt_titulo_regisrtar_inspecao"/>
+
+    <activity android:name=".View.View_04_registrar_risco"
+        android:label="@string/txt_titulo_regisrtar_riscos"/>
+
+    <activity android:name=".View.View_05_lista_de_locais"
+        android:label="@string/txt_titulo_lista_de_locais"/>
+
+    <activity android:name=".View.View_06_lista_de_setores"
+        android:label="@string/txt_titulo_lista_de_setores"/>
+
+    <activity android:name=".View.View_08_lista_de_riscos"
+        android:label="@string/txt_titulo_lista_de_risco"/>
+
+    <activity android:name=".View.View_07_lista_de_inspecoes"
+        android:label="@string/txt_titulo_lista_de_Inpecoes"/>
+
+    <activity android:name=".View.View_11_relatorio"
+        android:label="Relatório"/>
+
+    <activity android:name=".View.View_09_lista_de_tecnicos"
+        android:label="@string/txt_titulo_lista_de_tecnicos"/>
+
+    <activity android:name=".View.View_10_lista_de_tecnico_inspecoes"
+        android:label="@string/txt_titulo_minhas_inspecoes"/>
+</application>
+
+</manifest>

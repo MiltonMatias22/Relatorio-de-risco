@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".View.View_10_lista_de_tecnico_inspecoes">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_pesquisar_tecnico_inspecoes"
+        android:layout_gravity="center_horizontal"
+        android:hint="Pesquisar..." />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView_de_tecnicos_inspecoes"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</LinearLayout>
